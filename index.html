@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffie</title>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/db45c1e017.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <nav class="nav">
+        <logo data-aos="zoom-in-right">J<span>effie</span></logo>
+         
+        <input type="checkbox" id="click">
+            <label for="click" class="bars">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </label>
+
+        <!-- <i class="fa-solid fa-bars" onclick="navbar()"></i> -->
+        <ul id="tabs">
+            <li data-aos="zoom-in-left"><a href="#home">Home</a></li>
+            <li data-aos="zoom-in-left"><a href="#about">About</a></li>
+            <li data-aos="zoom-in-left"><a href="#services">Services</a></li>
+            <li data-aos="zoom-in-left"><a href="#work">Portfolio</a></li>
+            <li data-aos="zoom-in-left"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <p data-aos="zoom-in">
+            <span id="small">WEB DEVELOPER</span><br>
+            Hi, I'm <span style="color:#b32c57">Jeffie</span><br>
+            Jones From USA
+        </p>
+        <img src="images/img1.png" id="img1" data-aos="zoom-in">
+        <p id="responsive">
+            <span id="small">WEB DEVELOPER</span><br>
+            Hi,I'm <span style="color:#b32c57">Jeffie</span><br>
+            Jones From USA
+        </p>
+    </section>
+    <section id="about">
+        <img src="images/img2.png" data-aos="zoom-in">
+        <div id="me" data-aos="zoom-in">
+            <h1>About Me</h1><br>
+            <p>
+                I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with Python and Ruby; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well. Read More...
+
+
+            </p>
+            <ul id="headings">
+                <li id="skills">Skills</li>
+                <li>Experience</li>
+                <li>Education</li>
+            </ul>
+            <span>UI/UX</span><br>
+             Designing Web/App interfaces<br><br>
+             <span>Web Development</span><br>
+             Web App Development<br><br>
+             <span>App Development</span><br>
+             Building Android/iOS apps
+             
+        </div>
+    </section>
+    <section id="services">
+        <h1>
+            My Services
+        </h1><br>
+        <div class="box1">
+            <ul>
+                <li data-aos="flip-right">
+                    <i class="fa-solid fa-code"></i><br><br>
+                    <h2>PORTFOLIO WEBSITES</h2><br>
+                    An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.
+                    <br>
+                    <br>
+                    <a href="#">Learn More</a>
+                </li>
+                <li data-aos="flip-right">
+                    <i class="fa-solid fa-pen-nib"></i><br><br>
+                    <h2>E-COMMERCE WEBSITES</h2><br>
+                    An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.
+                    <br>
+                    <br>
+                    <a href="#">Learn More</a>
+                </li>
+                <li data-aos="flip-right">
+                    <i class="fa-brands fa-app-store-ios"></i><br><br>
+                    <h2>SOCIAL WEBSITES</h2><br>
+                    Social networking sites (SNSs) are virtual communities where users can create individual public profiles, interact with real-life friends, and meet other people based on shared interests.
+                    <br>
+                    <br>
+                    <a href="#">Learn More</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="work">
+        <h1>My Work</h1>
+        <ul>
+            <li data-aos="zoom-in-up"><img src="images/work-1.png"></li>
+            <li data-aos="zoom-in-up"><img src="images/work-2.png"></li>
+            <li data-aos="zoom-in-up"><img src="images/work-3.png"></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <div id=left><h1>Contact Me</h1><br><br>
+            <i class="fa-brands fa-telegram space"></i>
+            <a href = "mailto: 21051631@kiit.ac.in">21051630kiit.ac.in</a><br><br>
+            <i class="fa-solid fa-phone space"></i>
+                <a href="tel:123-456-7890">123-456-7890</a><br><br> 
+            <div class="social_icons">
+                <i class="fa-brands fa-facebook" data-aos="zoom-out"></i>
+                <i class="fa-brands fa-square-instagram" data-aos="zoom-out"></i>
+                <i class="fa-brands fa-linkedin" data-aos="zoom-out"></i>
+                <i class="fa-brands fa-square-twitter" data-aos="zoom-out"></i>
+            </div>
+            <button data-aos="zoom-in-right">Download CV</button>
+        </div>
+        <div id="right">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button data-aos="zoom-in-left">Submit</button>
+    </div>
+    </section>
+    <footer>
+        © 2022 aforA | All rights reserved.<br>
+        Created By Anisha Birla
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+            duration:2000,
+        }
+      );
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
